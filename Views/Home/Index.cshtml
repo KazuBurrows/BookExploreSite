@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+
+}
+@*<%@Page Language="C#" Inherits="System.Web.Mvc.ViewPage<IEnumerable<CustomerModel>>" %>
+<%@OutputCache Location="None" VaryByParam="None" %>*@
+
+<!DOCTYPE html>
+<title>Book Explore</title>
+
+
+<html>
+<body>
+    <h1>Book Explore</h1>
+
+
+    <input id='search_field' type='search' placeholder="Search"></input>
+    <button id='get_search' type="button">Search</button>
+
+
+
+    <table id='search_result'>
+    </table>
+
+    @*<label>Total Students:</label>  @ViewBag.TotalStudents*@
+
+</body>
+</html>
